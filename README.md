@@ -1,55 +1,54 @@
 # long-horizon-agent
-Long-Horizon Autonomous Agent (LoopAgent)
-Overview
+
+Inspired by long-horizon agent architectures used in modern AI systems.
+
+---
+
+## Overview
 
 This project implements a simple long-running autonomous agent that continuously observes state, makes decisions, and adapts over time.
 
 The goal is to simulate foundational concepts behind long-horizon AI systems, including:
 
-State tracking
+- State tracking  
+- Decision-making loops  
+- Feedback-driven behavior  
+- Continuous execution  
 
-Decision-making loops
+---
 
-Feedback-driven behavior
+## Features
 
-Continuous execution
+- Persistent state tracking using JSON  
+- Decision logic based on environment conditions  
+- Continuous execution loop  
+- Action logging for system analysis  
 
-Features
+---
 
-Persistent state tracking
+## Tech Stack
 
-Decision logic based on environment conditions
+- Python  
+- JSON (state persistence)
 
-Continuous execution loop
+---
 
-Action logging for system analysis
+## How It Works
 
-Tech Stack
+The agent operates in a continuous loop:
 
-Python
+1. Observes its current state  
+2. Selects an action based on predefined logic  
+3. Updates internal state  
+4. Logs the action and results  
+5. Repeats indefinitely  
 
-JSON (state persistence)
+---
 
-How It Works
+## Example Output
 
-The agent:
-
-Observes its current state
-
-Selects an action based on conditions
-
-Updates internal state
-
-Logs behavior
-
-Repeats indefinitely
-
-Future Improvements
-
-Reinforcement learning (reward system)
-
-Goal-based planning
-
-External API integration
-
-Multi-agent interaction
+```text
+[Agent] Action: work | Energy: 80 | Tasks Completed: 1
+[Agent] Action: explore | Energy: 70 | Tasks Completed: 1
+[Agent] Action: rest | Energy: 95 | Tasks Completed: 1
+```
