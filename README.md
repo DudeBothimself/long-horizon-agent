@@ -48,7 +48,7 @@ The agent operates in a continuous loop:
 ## Example Output
 
 ```text
-[Agent] Action: work | Energy: 80 | Tasks Completed: 1
-[Agent] Action: explore | Energy: 70 | Tasks Completed: 1
-[Agent] Action: rest | Energy: 95 | Tasks Completed: 1
+[Agent] Action: work | Energy: 80 | Tasks: 1 | Reward: 10 | Score: 10
+[Agent] Action: explore | Energy: 70 | Tasks: 1 | Reward: 5 | Score: 15
+[Agent] Action: rest | Energy: 95 | Tasks: 1 | Reward: -2 | Score: 13
 ```
